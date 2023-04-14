@@ -1,4 +1,5 @@
 import win32com.client as win32
+import pandas as pd
 
 def send_mail(to, subject, body, html, attach):
     outlook = win32.Dispatch('outlook.application')
